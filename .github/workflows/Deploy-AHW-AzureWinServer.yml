@@ -33,7 +33,7 @@ jobs:
           inlineScript: |
             az deployment group create \
             --name AHW-AzureWinServer \
-            --resource-group mrmp_github \
+            --resource-group farzada_github \
             --template-file src/core-templates/ahw/Deploy-AHW-AzureWinServer.json \
             --parameters client-apps/AzureWinServerApp/npd/ahw/parameters.json
             

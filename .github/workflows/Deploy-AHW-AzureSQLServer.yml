@@ -33,7 +33,7 @@ jobs:
           inlineScript: |
             az deployment group create \
             --name AHW-AzureSQLServer \
-            --resource-group mrmp_github \
+            --resource-group farzada_github \
             --template-file src/core-templates/ahw/Deploy-AHW-AzureSQLServer.json \
             --parameters client-apps/AzureSQLServerApp/npd/ahw/parameters.json
             

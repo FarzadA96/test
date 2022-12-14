@@ -33,6 +33,6 @@ jobs:
           inlineScript: |
             az deployment group create \
             --name AHW-AzureStorageAccount \
-            --resource-group mrmp_github \
+            --resource-group farzada_github \
             --template-file src/core-templates/ahw/Deploy-AHW-StorageAccount.json \
             --parameters client-apps/AzureStorageAccountApp/npd/ahw/parameters.json
