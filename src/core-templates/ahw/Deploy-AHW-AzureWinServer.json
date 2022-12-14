@@ -16,7 +16,7 @@
       },
       "ISSResourceGroup": {
           "type": "string",
-          "defaultValue": "mrpm_group"
+          "defaultValue": "farzada_github"
       },
       "serverName": {
           "type": "string",
