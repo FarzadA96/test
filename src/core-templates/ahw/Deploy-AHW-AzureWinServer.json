@@ -16,7 +16,7 @@
       },
       "ISSResourceGroup": {
           "type": "string",
-          "defaultValue": "farzada_github"
+          "defaultValue": "farzadagithub"
       },
       "serverName": {
           "type": "string",
